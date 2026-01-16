@@ -45,8 +45,33 @@ import Mars9 from "../images/Mars9.jpg";
 import AstralNav1 from "../images/astral-nav-screenshot-1.jpg";
 import AstralNav2 from "../images/astral-nav-screenshot-2.jpg";
 
+import ClearComm1 from "../images/Screenshot 2026-01-16 105550.png";
+import ClearComm2 from "../images/Screenshot 2026-01-16 105808.png";
+
 export default function SoftwareProjects() {
   const softwareData = [
+    {
+      id: 0,
+      name: "Clear Comm",
+      images: [
+        { original: ClearComm1, thumbnail: ClearComm1 },
+        { original: ClearComm2, thumbnail: ClearComm2 },
+      ],
+      description:
+        "Senior Capstone Project for APCV 498 (University of Arizona). Clear Comm is a web-based training tool that helps student pilots practice air traffic control (ATC) communication in a realistic, low-risk environment. Students can request and receive ATC instructions, see their airplane move through traffic patterns, and respond with the correct readbacks. By providing interactive departure and arrival scenarios, Clear Comm helps pilots build confidence, improve communication skills, and develop safer, more competent flying habits.",
+      tech: "React, TypeScript, Vite, Web-Speech-API, Material UI, HTML5, CSS3, Adobe Illustrator",
+      finished: true,
+      online: true,
+      soloProject: true,
+      visitLink: "https://sean-hetzel.github.io/clear-comm/",
+      gitHubLinks: [
+        {
+          id: 1,
+          name: "GitHub ↗",
+          url: "https://github.com/sean-hetzel/clear-comm",
+        },
+      ],
+    },
     {
       id: 1,
       name: "Astral Nav",
@@ -64,7 +89,7 @@ export default function SoftwareProjects() {
       gitHubLinks: [
         {
           id: 1,
-          name: "Frontend GitHub",
+          name: "GitHub ↗",
           url: "https://github.com/sean-hetzel/astralnav",
         },
       ],
@@ -93,12 +118,12 @@ export default function SoftwareProjects() {
       gitHubLinks: [
         {
           id: 1,
-          name: "Frontend GitHub",
+          name: "Frontend GitHub ↗",
           url: "https://github.com/sean-hetzel/sunset-investing",
         },
         {
           id: 2,
-          name: "Backend GitHub",
+          name: "Backend GitHub ↗",
           url: "https://github.com/sean-hetzel/sunset-investing-backend",
         },
       ],
@@ -123,12 +148,12 @@ export default function SoftwareProjects() {
       gitHubLinks: [
         {
           id: 3,
-          name: "Frontend GitHub",
+          name: "Frontend GitHub ↗",
           url: "https://github.com/sean-hetzel/star-runner",
         },
         {
           id: 4,
-          name: "Backend GitHub",
+          name: "Backend GitHub ↗",
           url: "https://github.com/sean-hetzel/star-runner-backend",
         },
       ],
@@ -155,12 +180,12 @@ export default function SoftwareProjects() {
       gitHubLinks: [
         {
           id: 5,
-          name: "Frontend GitHub",
+          name: "Frontend GitHub ↗",
           url: "https://github.com/sean-hetzel/adventure_archive_frontend",
         },
         {
           id: 6,
-          name: "Backend GitHub",
+          name: "Backend GitHub ↗",
           url: "https://github.com/sean-hetzel/adventure_archive_backend",
         },
       ],
@@ -182,12 +207,12 @@ export default function SoftwareProjects() {
       gitHubLinks: [
         {
           id: 7,
-          name: "Frontend GitHub",
+          name: "Frontend GitHub ↗",
           url: "https://github.com/sean-hetzel/cloneterest",
         },
         {
           id: 8,
-          name: "Backend GitHub",
+          name: "Backend GitHub ↗",
           url: "https://github.com/sean-hetzel/cloneterest_backend",
         },
       ],
@@ -209,13 +234,13 @@ export default function SoftwareProjects() {
       online: false,
       soloProject: false,
       teammate: {
-        name: "Amin Aminamos",
+        name: "Amin Aminamos ↗",
         github: "https://github.com/aminamos",
       },
       gitHubLinks: [
         {
           id: 9,
-          name: "GitHub",
+          name: "GitHub ↗",
           url: "https://github.com/sean-hetzel/mod_2_project",
         },
       ],
@@ -237,13 +262,13 @@ export default function SoftwareProjects() {
       online: false,
       soloProject: false,
       teammate: {
-        name: "Evan Carlsen",
+        name: "Evan Carlsen ↗",
         github: "https://github.com/evancarlsen",
       },
       gitHubLinks: [
         {
           id: 10,
-          name: "GitHub",
+          name: "GitHub ↗",
           url: "https://github.com/evancarlsen/module-one-final-project-guidelines-seattle-web-062419",
         },
       ],
@@ -289,8 +314,8 @@ export default function SoftwareProjects() {
               )}
               {project.finished ? null : (
                 <div className="wip-container">
-                  <img src={wrenchIcon} alt="wrench icon" height="30" />
                   <p className="blue-text">Work in Progress</p>
+                  <img src={wrenchIcon} alt="wrench icon" height="22" />
                 </div>
               )}
               {project.online ? (
@@ -301,7 +326,7 @@ export default function SoftwareProjects() {
                   className="btn btn-primary"
                   title="Visit"
                 >
-                  Visit
+                  Visit ↗
                 </a>
               ) : null}
               {project.gitHubLinks.map((link) => {

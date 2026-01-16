@@ -13,7 +13,7 @@ export default function LandingPage() {
             SEAN HETZEL
           </h1>
           <h4 className="title centered" id="software-dev">
-            SOFTWARE DEVELOPER
+            SOFTWARE ENGINEER
           </h4>
 
           <div className="mouse-scroll">

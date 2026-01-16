@@ -4,24 +4,24 @@ import ImageGallery from "react-image-gallery";
 import wrenchIcon from "../images/wrench-icon-blue.png";
 import defaultImg from "../images/temp-pic.jpg";
 
-import mrButtersImage1 from "../images/DSC04745.jpg";
-import mrButtersImage2 from "../images/DSC04661.jpg";
-import mrButtersImage3 from "../images/DSC04662.jpg";
-import mrButtersImage4 from "../images/DSC04730.jpg";
-import mrButtersImage5 from "../images/DSC04738.jpg";
+import mrButtersImage1 from "../images/DSC04745.JPG";
+import mrButtersImage2 from "../images/DSC04661.JPG";
+import mrButtersImage3 from "../images/DSC04662.JPG";
+import mrButtersImage4 from "../images/DSC04730.JPG";
+import mrButtersImage5 from "../images/DSC04738.JPG";
 import mrButtersImage6 from "../images/butter-robot-image-1.jpg";
 import mrButtersImage7 from "../images/butter-robot-image-2.jpg";
 import mrButtersImage8 from "../images/butter-robot-image-3.jpg";
 import mrButtersImage9 from "../images/butter-robot-image-4.jpg";
 import mrButtersImage10 from "../images/butter-robot-image-5.jpg";
 
-import poolSkimmerImage1 from "../images/DSC04762.jpg";
-import poolSkimmerImage2 from "../images/DSC04768.jpg";
-import poolSkimmerImage3 from "../images/DSC04780.jpg";
-import poolSkimmerImage4 from "../images/DSC04778.jpg";
-import poolSkimmerImage5 from "../images/DSC04792.jpg";
-import poolSkimmerImage6 from "../images/DSC04783.jpg";
-import poolSkimmerImage7 from "../images/DSC04786.jpg";
+import poolSkimmerImage1 from "../images/DSC04762.JPG";
+import poolSkimmerImage2 from "../images/DSC04768.JPG";
+import poolSkimmerImage3 from "../images/DSC04780.JPG";
+import poolSkimmerImage4 from "../images/DSC04778.JPG";
+import poolSkimmerImage5 from "../images/DSC04792.JPG";
+import poolSkimmerImage6 from "../images/DSC04783.JPG";
+import poolSkimmerImage7 from "../images/DSC04786.JPG";
 import poolSkimmerImage8 from "../images/pool-skimmer-image-1.jpg";
 import poolSkimmerImage9 from "../images/pool-skimmer-image-2.jpg";
 import poolSkimmerImage10 from "../images/pool-skimmer-image-3.jpg";
@@ -29,14 +29,14 @@ import poolSkimmerImage11 from "../images/pool-skimmer-image-4.jpg";
 
 import lightBoxImage2 from "../images/20190401_173050.jpg";
 import lightBoxImage3 from "../images/20190309_122350.jpg";
-import lightBoxImage4 from "../images/DSC04196.jpg";
-import lightBoxImage5 from "../images/DSC04213.jpg";
+import lightBoxImage4 from "../images/DSC04196.JPG";
+import lightBoxImage5 from "../images/DSC04213.JPG";
 import lightBoxImage9 from "../images/UA-Luminary-Retro-Label-7.jpg";
 import lightBoxImage10 from "../images/ua-lamp-image-2.jpg";
 import lightBoxImage11 from "../images/ua-lamp-image-1.jpg";
-import lightBoxImage12 from "../images/DSC04153.jpg";
-import lightBoxImage13 from "../images/DSC04210.jpg";
-import lightBoxImage14 from "../images/DSC04395.jpg";
+import lightBoxImage12 from "../images/DSC04153.JPG";
+import lightBoxImage13 from "../images/DSC04210.JPG";
+import lightBoxImage14 from "../images/DSC04395.JPG";
 import lightBoxImage15 from "../images/20191214_195311.jpg";
 
 import automaticDoor1 from "../images/20191214_160738.jpg";
@@ -75,8 +75,16 @@ export default function HardwareProjects() {
       finished: false,
       soloProject: true,
       links: [
-        { id: 1, name: "YouTube 1", url: "https://youtu.be/PJr8bjc1ncM" },
-        { id: 2, name: "YouTube 2", url: "https://youtu.be/lyy9mVMGQ5w" },
+        {
+          id: 1,
+          name: "Video 1 ↗",
+          url: "https://photos.app.goo.gl/SzAEZTqjzUtvAZDB7",
+        },
+        {
+          id: 2,
+          name: "Video 2 ↗",
+          url: "https://photos.app.goo.gl/GTngUZUbDgr1tpsv5",
+        },
       ],
     },
     {
@@ -125,12 +133,12 @@ export default function HardwareProjects() {
       links: [
         {
           id: 3,
-          name: "Instagram",
+          name: "Instagram ↗",
           url: "https://www.instagram.com/beardown_light_box/",
         },
         {
           id: 4,
-          name: "UA News",
+          name: "UA News ↗",
           url: "https://eller.arizona.edu/news/2019/02/entrepreneurship-students-sell-products-ua-bookstore",
         },
       ],
@@ -180,7 +188,13 @@ export default function HardwareProjects() {
       tech: "Cleanflight, basic drone stuff",
       finished: false,
       soloProject: true,
-      links: [{ id: 5, name: "YouTube", url: "https://youtu.be/gJsW0B7UBVc" }],
+      links: [
+        {
+          id: 5,
+          name: "Video ↗",
+          url: "https://photos.app.goo.gl/fDYpb7esMCs92pcs6",
+        },
+      ],
     },
   ];
 
@@ -222,8 +236,8 @@ export default function HardwareProjects() {
               )}
               {project.finished ? null : (
                 <div className="wip-container">
-                  <img src={wrenchIcon} alt="wrench icon" height="30" />
                   <p className="blue-text">Work in Progress</p>
+                  <img src={wrenchIcon} alt="wrench icon" height="22" />
                 </div>
               )}
               {project.links.map((link) => {
