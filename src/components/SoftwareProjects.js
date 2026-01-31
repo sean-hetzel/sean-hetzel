@@ -45,8 +45,9 @@ import Mars9 from "../images/Mars9.jpg";
 import AstralNav1 from "../images/astral-nav-screenshot-1.jpg";
 import AstralNav2 from "../images/astral-nav-screenshot-2.jpg";
 
-import ClearComm1 from "../images/Screenshot 2026-01-16 105550.png";
-import ClearComm2 from "../images/Screenshot 2026-01-16 105808.png";
+import ClearComm1 from "../images/Screenshot 2026-01-31 100651.png";
+import ClearComm2 from "../images/Screenshot 2026-01-31 100923.png";
+import ClearComm3 from "../images/Screenshot 2026-01-31 101353.png";
 
 export default function SoftwareProjects() {
   const softwareData = [
@@ -56,6 +57,7 @@ export default function SoftwareProjects() {
       images: [
         { original: ClearComm1, thumbnail: ClearComm1 },
         { original: ClearComm2, thumbnail: ClearComm2 },
+        { original: ClearComm3, thumbnail: ClearComm3 },
       ],
       description:
         "Senior Capstone Project for APCV 498 (University of Arizona). Clear Comm is a web-based training tool that helps student pilots practice air traffic control (ATC) communication in a realistic, low-risk environment. Students can request and receive ATC instructions, see their airplane move through traffic patterns, and respond with the correct readbacks. By providing interactive departure and arrival scenarios, Clear Comm helps pilots build confidence, improve communication skills, and develop safer, more competent flying habits.",
