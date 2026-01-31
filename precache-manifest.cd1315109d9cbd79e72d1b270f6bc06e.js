@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9cd9499dfc300ef747af03cf00ff633",
+    "revision": "7fbc2a554bbc77e3d2b6b707a7230a41",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.37f94979.chunk.css"
   },
   {
-    "revision": "ab54173c8919f0d9a3e2",
+    "revision": "a5c5829ba342d3331416",
     "url": "/static/css/main.405904a9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.438cecfb.chunk.js.LICENSE"
   },
   {
-    "revision": "ab54173c8919f0d9a3e2",
-    "url": "/static/js/main.c345fff2.chunk.js"
+    "revision": "a5c5829ba342d3331416",
+    "url": "/static/js/main.0d93c4db.chunk.js"
   },
   {
     "revision": "1887fc5a1ab839c1a6f8",
@@ -196,8 +196,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Screenshot 2026-01-31 101353.7d4a08c8.png"
   },
   {
-    "revision": "5eaaa2ea648ff9d6d6aeff91838f6bc9",
-    "url": "/static/media/Sean-Hetzel's-Resume.5eaaa2ea.pdf"
+    "revision": "90222840db109ddad4fbef17ad845ee7",
+    "url": "/static/media/Sean-Hetzel's-Resume.90222840.pdf"
   },
   {
     "revision": "0e7b7ece826aa7fd406531e0f9885161",
