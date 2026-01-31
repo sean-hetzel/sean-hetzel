@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.405904a9.chunk.css",
-    "main.js": "/static/js/main.76b47c0c.chunk.js",
-    "main.js.map": "/static/js/main.76b47c0c.chunk.js.map",
+    "main.js": "/static/js/main.c345fff2.chunk.js",
+    "main.js.map": "/static/js/main.c345fff2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ecc8ad66.js",
     "runtime-main.js.map": "/static/js/runtime-main.ecc8ad66.js.map",
     "static/css/2.37f94979.chunk.css": "/static/css/2.37f94979.chunk.css",
-    "static/js/2.e8298645.chunk.js": "/static/js/2.e8298645.chunk.js",
-    "static/js/2.e8298645.chunk.js.map": "/static/js/2.e8298645.chunk.js.map",
+    "static/js/2.438cecfb.chunk.js": "/static/js/2.438cecfb.chunk.js",
+    "static/js/2.438cecfb.chunk.js.map": "/static/js/2.438cecfb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6d13c6e8d9ad270c83ab55b3ea7438ab.js": "/precache-manifest.6d13c6e8d9ad270c83ab55b3ea7438ab.js",
+    "precache-manifest.8d2e9d8485c2e9f454677c16ed78c4ca.js": "/precache-manifest.8d2e9d8485c2e9f454677c16ed78c4ca.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.37f94979.chunk.css.map": "/static/css/2.37f94979.chunk.css.map",
     "static/css/main.405904a9.chunk.css.map": "/static/css/main.405904a9.chunk.css.map",
-    "static/js/2.e8298645.chunk.js.LICENSE": "/static/js/2.e8298645.chunk.js.LICENSE",
+    "static/js/2.438cecfb.chunk.js.LICENSE": "/static/js/2.438cecfb.chunk.js.LICENSE",
     "static/media/20160512_185128.jpg": "/static/media/20160512_185128.1e57d301.jpg",
     "static/media/20160512_185153.jpg": "/static/media/20160512_185153.441117fc.jpg",
     "static/media/20160512_185226.jpg": "/static/media/20160512_185226.c586237c.jpg",
@@ -53,8 +53,9 @@
     "static/media/Mars4.jpg": "/static/media/Mars4.6cb08394.jpg",
     "static/media/Mars6.jpg": "/static/media/Mars6.7576b2e5.jpg",
     "static/media/Mars9.jpg": "/static/media/Mars9.07bfed0c.jpg",
-    "static/media/Screenshot 2026-01-16 105550.png": "/static/media/Screenshot 2026-01-16 105550.69d56449.png",
-    "static/media/Screenshot 2026-01-16 105808.png": "/static/media/Screenshot 2026-01-16 105808.3898f6b7.png",
+    "static/media/Screenshot 2026-01-31 100651.png": "/static/media/Screenshot 2026-01-31 100651.35b6eb45.png",
+    "static/media/Screenshot 2026-01-31 100923.png": "/static/media/Screenshot 2026-01-31 100923.ff539b19.png",
+    "static/media/Screenshot 2026-01-31 101353.png": "/static/media/Screenshot 2026-01-31 101353.7d4a08c8.png",
     "static/media/Sean-Hetzel's-Resume.pdf": "/static/media/Sean-Hetzel's-Resume.5eaaa2ea.pdf",
     "static/media/TV-off-image-3.jpg": "/static/media/TV-off-image-3.0e7b7ece.jpg",
     "static/media/TV-off-image-4.jpg": "/static/media/TV-off-image-4.b4fbd6b4.jpg",
@@ -100,8 +101,8 @@
   "entrypoints": [
     "static/js/runtime-main.ecc8ad66.js",
     "static/css/2.37f94979.chunk.css",
-    "static/js/2.e8298645.chunk.js",
+    "static/js/2.438cecfb.chunk.js",
     "static/css/main.405904a9.chunk.css",
-    "static/js/main.76b47c0c.chunk.js"
+    "static/js/main.c345fff2.chunk.js"
   ]
 }
